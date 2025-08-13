@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Container for all complaints */
+.complaints-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Single card */
+.complaint-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.complaint-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.complaint-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.complaint-header h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.location {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Body text */
+.complaint-body p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.complaint-body strong {
+  color: #222;
+}
