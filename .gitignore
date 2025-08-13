@@ -51,3 +51,6 @@ Thumbs.db
 # Model files
 *.pth
 *.pt
+
+models/vs/
+
